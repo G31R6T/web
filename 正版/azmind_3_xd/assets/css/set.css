@@ -1,0 +1,74 @@
+body {
+    background: #111;
+    font-family: 'PT Sans', sans-serif;
+    color: #e4cdcd;
+}
+
+.home-link {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #e4cdcd;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.home-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #e4cdcd;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #e4cdcd;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #e4cdcd;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+label {
+    color: #e4cdcd;
+}
+
+.checkbox label {
+    font-weight: normal;
+}
+
+.btn-primary {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+    color: #e4cdcd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: #e4cdcd;
+}
+
+
